@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="leecarter",
-    version="1.0.0",
+    version="1.0.2",
     author="Andy Chen",
     author_email="andy97_861022_chen@hotmail.com",
     description="leecarter",

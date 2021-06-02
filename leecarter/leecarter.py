@@ -23,4 +23,4 @@ def lee_carter(rate, T, N, misc=False):
     kwargs = {"U": U, "S": S, "V": V, "logm_xt": logm_xt,
               "z_xt": z_xt, "eps": eps, "logm_xt_lcfitted": logm_xt_lcfitted}
 
-    return a_x, b_x, k_t, kwargs if misc else a_x, b_x, k_t
+    return (a_x, b_x, k_t, kwargs) if misc else (a_x, b_x, k_t)
